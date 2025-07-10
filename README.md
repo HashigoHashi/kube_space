@@ -11,3 +11,6 @@ kubectl get pods
 
 ④サービスの定義ファイルの読み込み
 kubectl apply -f service/httpd/apa000ser.yml
+
+⑤サービスが作られていることの確認
+kubectl get services
