@@ -14,3 +14,9 @@ kubectl apply -f service/httpd/apa000ser.yml
 
 ⑤サービスが作られていることの確認
 kubectl get services
+
+⑥デプロイメントの削除
+kubectl delete -f deployment/httpd/apa000dep.yml
+
+⑦サービスの削除
+kubectl delete -f service/httpd/apa000ser.yml
